@@ -18,7 +18,7 @@ https://github.com/Blakedoghyian/password-generator
 
 ## Screenshot
 
-
+![Screenshot (12)](https://user-images.githubusercontent.com/91994720/140684037-a25407ea-42c7-493f-94e0-0024594b0466.png)
 
 ## Acceptance Criteria 
 *GIVEN I need a new, secure password
