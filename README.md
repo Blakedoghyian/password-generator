@@ -10,8 +10,15 @@
 
 ## Live Link
 
+https://blakedoghyian.github.io/password-generator/
+
+## Reposition Link
+
+https://github.com/Blakedoghyian/password-generator
 
 ## Screenshot
+
+
 
 ## Acceptance Criteria 
 *GIVEN I need a new, secure password
