@@ -3,6 +3,9 @@
 function generatePassword() {
   var length = window.prompt("How many characters would you like to include? 8-128 ");
 
+  // prompt user for password criteria
+  // select length between 8 and 128 characters
+
   if (length > 128) {
     window.alert("Your password is too long!");
   } else if (length < 8) {
@@ -11,8 +14,7 @@ function generatePassword() {
   } else {
 
 
-// prompt user for password criteria
-// select length between 8 and 128 characters
+
 // confirm whether or not to use lowercase, uppercase, numeric, and or special characters
   var confirmUpper = window.confirm("Include upper case letters?");
   var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -49,8 +51,18 @@ function generatePassword() {
 
   console.log(startpw);
 
+  var randomArray = [];
+
+  for(var i = 0; i < length; i++) {
+    var random = startpw[Math.floor(Math.random() * startpw.length)];
+    console.log(random);
+    randomArray.push(random);
+    }
+
+    return randomArray.join("");
+
+
 // after answering all the prompts, password should be generated and displayed to the page
-  return "Generated password will go here";
   }
 }
 
